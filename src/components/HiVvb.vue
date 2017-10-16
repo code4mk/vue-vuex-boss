@@ -21,7 +21,7 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'HiVvb',
   data () {
     return {
       msg: 'Welcome to Vue-VueX-Boss',

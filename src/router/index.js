@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import TheDirective from '@/components/vue/directives/TheDirective'
-import HelloWorld from '@/components/HelloWorld'
+import HiVvb from '@/components/HiVvb'
 import VText from '@/components/vue/directives/v-text'
 import VHtml from '@/components/vue/directives/v-html'
 import VShow from '@/components/vue/directives/v-show'
@@ -19,8 +19,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Hello',
-      component: HelloWorld
+      name: 'HiVvb',
+      component: HiVvb
     },
     {
       path: '/directives',
