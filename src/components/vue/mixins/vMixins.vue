@@ -5,7 +5,7 @@
       <div class="field">
         <label class="label">Name</label>
         <div class="control">
-          <input class="input" :class="isSuccess" type="text" placeholder="Text input" v-model="vModel">
+          <input class="input" :class="isSuccess" type="text" placeholder="Text input">
         </div>
       </div>
 
