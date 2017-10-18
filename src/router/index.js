@@ -13,6 +13,7 @@ import VFor from '@/components/vue/directives/v-for'
 import VMixin from '@/components/vue/mixins/vMixins'
 import VComponent from '@/components/vue/component/ComponentMain'
 import VProp from '@/components/vue/prop/PropMain'
+import VFilter from '@/components/vue/filter/VueFilters'
 Vue.use(Router)
 export default new Router({
   mode: 'history',
@@ -81,6 +82,11 @@ export default new Router({
       path: '/props',
       name: 'VProp',
       component: VProp
+    },
+    {
+      path: '/filters',
+      name: 'VFilter',
+      component: VFilter
     }
   ]
 })
