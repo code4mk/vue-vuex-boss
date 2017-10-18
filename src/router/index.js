@@ -14,6 +14,7 @@ import VMixin from '@/components/vue/mixins/vMixins'
 import VComponent from '@/components/vue/component/ComponentMain'
 import VProp from '@/components/vue/prop/PropMain'
 import VFilter from '@/components/vue/filter/VueFilters'
+import VJquery from '@/components/vue/vue-jquery/VueJquery'
 Vue.use(Router)
 export default new Router({
   mode: 'history',
@@ -87,6 +88,11 @@ export default new Router({
       path: '/filters',
       name: 'VFilter',
       component: VFilter
+    },
+    {
+      path: '/jquery',
+      name: 'VJquery',
+      component: VJquery
     }
   ]
 })
