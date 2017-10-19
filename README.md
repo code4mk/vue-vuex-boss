@@ -25,4 +25,4 @@ VVB is a mini Vue boilerplate .
  - `apm install atom-axios`
 
 
-Powered By : [@code4mk]('https://twitter.com/code4mk') & [Hello Laravel]('https://hellolaravel.org')
+Powered By : [@code4mk](https://twitter.com/code4mk) & [Hello Laravel](https://hellolaravel.org)
