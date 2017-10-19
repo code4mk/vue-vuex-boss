@@ -22,7 +22,7 @@
             </th>
             <th>
               <button class="button is-success" @click="adultIncrease" >increase</button>
-              <button class="button is-danger">Delete</button>
+              <button class="button is-danger" @click="adultDecrease">decrease</button>
             </th>
           </tr>
 
@@ -51,7 +51,8 @@ export default {
     //   this.$store.commit('adultIncrease')
     // }
     ...mapMutations([
-      'adultIncrease'
+      'adultIncrease',
+      'adultDecrease'
     ])
   }
 }
