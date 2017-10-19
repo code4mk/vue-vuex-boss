@@ -72,63 +72,27 @@
           </div>
         </div>
         <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link " href="http://bulma.io/blog/">
-            Blog
+          <a class="navbar-link " href="/vx-state">
+            Vuex
           </a>
           <div id="blogDropdown" class="navbar-dropdown is-boxed" data-style="width: 18rem;">
 
-              <a class="navbar-item" href="/2017/10/09/roses-are-red-links-are-blue/">
-                <div class="navbar-content">
-                  <p>
-                    <small class="has-text-link">09 Oct 2017</small>
-                  </p>
-                  <p>Roses are red – Links are blue</p>
-                </div>
+              <a class="navbar-item" href="vx-state">
+                state
               </a>
 
-              <a class="navbar-item" href="/2017/08/03/list-of-tags/">
-                <div class="navbar-content">
-                  <p>
-                    <small class="has-text-link">03 Aug 2017</small>
-                  </p>
-                  <p>New feature: list of tags</p>
-                </div>
+              <a class="navbar-item" href="/vx-getters">
+                getters
               </a>
 
-              <a class="navbar-item" href="/2017/08/01/bulma-bootstrap-comparison/">
-                <div class="navbar-content">
-                  <p>
-                    <small class="has-text-link">01 Aug 2017</small>
-                  </p>
-                  <p>Bulma / Bootstrap comparison</p>
-                </div>
+              <a class="navbar-item" href="/vx-mutations">
+                mutations
               </a>
 
-            <a class="navbar-item" href="http://bulma.io/blog/">
-              More posts
+            <a class="navbar-item" href="/actions">
+              actions
             </a>
             <hr class="navbar-divider">
-            <div class="navbar-item">
-              <div class="navbar-content">
-                <div class="level is-mobile">
-                  <div class="level-left">
-                    <div class="level-item">
-                      <strong>Stay up to date!</strong>
-                    </div>
-                  </div>
-                  <div class="level-right">
-                    <div class="level-item">
-                      <a class="button bd-is-rss is-small" href="http://bulma.io/atom.xml">
-                        <span class="icon is-small">
-                          <i class="fa fa-rss"></i>
-                        </span>
-                        <span>Subscribe</span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
         <div class="navbar-item has-dropdown is-hoverable">

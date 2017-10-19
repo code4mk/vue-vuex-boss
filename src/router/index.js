@@ -14,7 +14,9 @@ import VMixin from '@/components/vue/mixins/vMixins'
 import VComponent from '@/components/vue/component/ComponentMain'
 import VProp from '@/components/vue/prop/PropMain'
 import VFilter from '@/components/vue/filter/VueFilters'
-import VJquery from '@/components/vue/vue-jquery/VueJquery'
+import VxState from '@/components/vuex/VuexState'
+import VxGetter from '@/components/vuex/VuexGetters'
+import VxMutation from '@/components/vuex/VuexMutations'
 Vue.use(Router)
 export default new Router({
   mode: 'history',
@@ -90,9 +92,19 @@ export default new Router({
       component: VFilter
     },
     {
-      path: '/jquery',
-      name: 'VJquery',
-      component: VJquery
+      path: '/vx-state',
+      name: 'VxState',
+      component: VxState
+    },
+    {
+      path: '/vx-getters',
+      name: 'VxGetter',
+      component: VxGetter
+    },
+    {
+      path: '/vx-mutations',
+      name: 'VxMutation',
+      component: VxMutation
     }
   ]
 })
