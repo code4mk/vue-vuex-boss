@@ -96,9 +96,9 @@
           </div>
         </div>
         <div class="navbar-item has-dropdown is-hoverable">
-          <div class="navbar-link">
+          <a class="navbar-link">
             More
-          </div>
+          </a>
           <div id="moreDropdown" class="navbar-dropdown is-boxed">
             <a class="navbar-item " href="http://bulma.io/made-with-bulma/">
               <p>
