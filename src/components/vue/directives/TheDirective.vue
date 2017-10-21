@@ -32,13 +32,13 @@ export default {
         {name: 'v-pre', url: '/v-pre'},
         {name: 'v-once', url: '/v-once'},
         {name: 'v-cloak', url: '/v-cloak'},
-        {name: 'v-if', url: '/v-if'},
-        {name: 'v-else-if', url: '/v-else-if'},
-        {name: 'v-else', url: '/v-else'},
+        {name: 'v-if', url: '/v-conditions'},
+        {name: 'v-else-if', url: '/v-conditions'},
+        {name: 'v-else', url: '/v-conditions'},
         {name: 'v-model', url: '/v-model'},
         {name: 'v-bind', url: '/v-bind'},
         {name: 'v-on', url: '/v-on'},
-        {name: 'v-for', url: '/v-for'}
+        {name: 'v-for', url: '/v-mefor'}
       ]
     }
   }

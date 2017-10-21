@@ -32,44 +32,7 @@
           <a class="navbar-link  is-active" href="/documentation/overview/start/">
             Docs
           </a>
-          <div class="navbar-dropdown is-boxed">
-            <a class="navbar-item " href="/documentation/overview/start/">
-              Overview
-            </a>
-            <a class="navbar-item " href="http://bulma.io/documentation/modifiers/syntax/">
-              Modifiers
-            </a>
-            <a class="navbar-item " href="http://bulma.io/documentation/columns/basics/">
-              Columns
-            </a>
-            <a class="navbar-item " href="http://bulma.io/documentation/layout/container/">
-              Layout
-            </a>
-            <a class="navbar-item " href="http://bulma.io/documentation/form/general/">
-              Form
-            </a>
-            <a class="navbar-item " href="http://bulma.io/documentation/elements/box/">
-              Elements
-            </a>
-
-              <a class="navbar-item is-active" href="http://bulma.io/documentation/components/breadcrumb/">
-                Components
-              </a>
-
-            <hr class="navbar-divider">
-            <div class="navbar-item">
-              <div>
-                <p class="is-size-6-desktop">
-                  <strong>0.6.0</strong>
-                </p>
-
-                  <small>
-                    <a class="bd-view-all-versions" href="http://versions.bulma.io/">View all versions</a>
-                  </small>
-
-              </div>
-            </div>
-          </div>
+          <!-- </div> -->
         </div>
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link " href="/vx-state">
@@ -100,18 +63,14 @@
             More
           </div>
           <div id="moreDropdown" class="navbar-dropdown is-boxed">
-            <a class="navbar-item " href="http://bulma.io/made-with-bulma/">
+            <a class="navbar-item " href="/vx-jquery">
               <p>
-                <strong>Made with Bulma</strong>
-                <br>
-                <small>The official community badge</small>
+                <strong>vue+jquery</strong>
               </p>
             </a>
-            <a class="navbar-item " href="http://bulma.io/extensions/">
+            <a class="navbar-item " href="#">
               <p>
-                <strong>Extensions</strong>
-                <br>
-                <small>Side projects to enhance Bulma</small>
+                <strong>Code4mk</strong>
               </p>
             </a>
           </div>
@@ -127,12 +86,12 @@
       </div>
 
       <div class="navbar-end">
-        <a class="navbar-item is-hidden-desktop-only" href="https://github.com/jgthms/bulma" target="_blank">
+        <a class="navbar-item is-hidden-desktop-only" href="https://github.com/code4mk/vue-vuex-boss" target="_blank">
           <span class="icon" style="color: #333;">
             <i class="fa fa-lg fa-github"></i>
           </span>
         </a>
-        <a class="navbar-item is-hidden-desktop-only" href="https://twitter.com/jgthms" target="_blank">
+        <a class="navbar-item is-hidden-desktop-only" href="https://twitter.com/code4mk" target="_blank">
           <span class="icon" style="color: #55acee;">
             <i class="fa fa-lg fa-twitter"></i>
           </span>
@@ -145,7 +104,7 @@
     data-social-action="tweet"
     data-social-target="http://bulma.io"
     target="_blank"
-    href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&hashtags=bulmaio&url=http://bulma.io&via=jgthms">
+    href="https://twitter.com/intent/tweet?text=Vue-VueX-Boss: Vue-VueX-Boss=http://github.com/code4mk/vue-vuex-boss">
     <span class="icon">
       <i class="fa fa-twitter"></i>
     </span>
@@ -156,7 +115,7 @@
 
             </p>
             <p class="control">
-              <a class="button is-primary" href="https://github.com/jgthms/bulma/releases/download/0.6.0/bulma-0.6.0.zip">
+              <a class="button is-primary" href="#">
                 <span class="icon">
                   <i class="fa fa-download"></i>
                 </span>
