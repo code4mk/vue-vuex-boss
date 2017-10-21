@@ -1,7 +1,7 @@
 # vue-vuex-boss (VVB)
 VVB is a mini Vue boilerplate .
 
-<p align="center" ><img src="src/assets/vvb.PNG"></p>
+<p align="center" ><img src="https://github.com/code4mk/vue-vuex-boss/raw/1.0.1/src/assets/vvb.PNG"></p>
 
 # Main Feature:
 
@@ -25,4 +25,4 @@ VVB is a mini Vue boilerplate .
  - `apm install atom-axios`
 
 
-Powered By : [@code4mk]('https://twitter.com/code4mk') & [Hello Laravel]('https://hellolaravel.org')
+Powered By : [@code4mk](https://twitter.com/code4mk) & [Hello Laravel](https://hellolaravel.org)
