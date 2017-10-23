@@ -68,6 +68,16 @@
                 <strong>vue+jquery</strong>
               </p>
             </a>
+            <a class="navbar-item " href="/props">
+              <p>
+                <strong>props</strong>
+              </p>
+            </a>
+            <a class="navbar-item " href="/emit">
+              <p>
+                <strong>$emit</strong>
+              </p>
+            </a>
             <a class="navbar-item " href="#">
               <p>
                 <strong>Code4mk</strong>
