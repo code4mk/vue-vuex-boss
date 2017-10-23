@@ -13,6 +13,7 @@ import VFor from '@/components/vue/directives/v-for'
 import VMixin from '@/components/vue/mixins/vMixins'
 import VComponent from '@/components/vue/component/ComponentMain'
 import VProp from '@/components/vue/prop/PropMain'
+import VEmit from '@/components/vue/prop/emit/PropMain'
 import VFilter from '@/components/vue/filter/VueFilters'
 import VxState from '@/components/vuex/VuexState'
 import VxGetter from '@/components/vuex/VuexGetters'
@@ -86,6 +87,11 @@ export default new Router({
       path: '/props',
       name: 'VProp',
       component: VProp
+    },
+    {
+      path: '/emit',
+      name: 'VEmit',
+      component: VEmit
     },
     {
       path: '/filters',
