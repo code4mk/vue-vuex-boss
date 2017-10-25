@@ -63,17 +63,6 @@ export default {
         .catch(function (error) {
           console.log(error)
         })
-    },
-    vKamal1: function () {
-      let url = (this.type = 'posts')
-      this.vText = 'posts'
-      axios.get(`https://jsonplaceholder.typicode.com/${url}`)
-        .then(function (response) {
-          this.infos = response.data
-        }.bind(this))
-        .catch(function (error) {
-          console.log(error)
-        })
     }
   },
   mounted () {
