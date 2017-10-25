@@ -19,6 +19,7 @@ import VxState from '@/components/vuex/VuexState'
 import VxGetter from '@/components/vuex/VuexGetters'
 import VxMutation from '@/components/vuex/VuexMutations'
 import VxJquery from '@/components/vue/vue-jquery/VueJquery'
+import VSelectMultiFor from '@/components/vue/multi-select/SelectFor'
 Vue.use(Router)
 export default new Router({
   mode: 'history',
@@ -117,6 +118,11 @@ export default new Router({
       path: '/vx-jquery',
       name: 'VxJquery',
       component: VxJquery
+    },
+    {
+      path: '/v-multi-select',
+      name: 'VSelectMultiFor',
+      component: VSelectMultiFor
     }
   ]
 })

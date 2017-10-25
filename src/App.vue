@@ -68,6 +68,11 @@
                 <strong>vue+jquery</strong>
               </p>
             </a>
+            <a class="navbar-item " href="/v-multi-select">
+              <p>
+                <strong>Multi Select For</strong>
+              </p>
+            </a>
             <a class="navbar-item " href="/props">
               <p>
                 <strong>props</strong>
