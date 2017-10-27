@@ -29,15 +29,7 @@
     <div id="navMenuTransparentExample" class="navbar-menu">
       <div class="navbar-start">
         <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link  is-active" href="/documentation/overview/start/">
-            Docs
-          </a>
-          <!-- </div> -->
-        </div>
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link " href="/vx-state">
-            Vuex
-          </a>
+          <router-link :to="{ name: 'VxState', params: {} }" class="navbar-link ">Vuex</router-link>
           <div id="blogDropdown" class="navbar-dropdown is-boxed" data-style="width: 18rem;">
 
               <a class="navbar-item" href="vx-state">
@@ -59,9 +51,7 @@
           </div>
         </div>
         <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link">
-            More
-          </a>
+          <router-link :to="{ name: 'VxJquery', params: {} }" class="navbar-link ">More</router-link>
           <div id="moreDropdown" class="navbar-dropdown is-boxed">
             <a class="navbar-item " href="/vx-jquery">
               <p>
@@ -90,14 +80,14 @@
             </a>
           </div>
         </div>
-        <a class="navbar-item " href="/directives">
+        <router-link :to="{ name: 'TheDirective', params: {} }" class="navbar-link ">
           <span class="bd-emoji">⭐️</span>
           Directives
-        </a>
-        <a class="navbar-item " href="/mixins">
-          <span class="bd-emoji">❤️</span>
+        </router-link>
+        <router-link :to="{ name: 'VMixin', params: {} }" class="navbar-link ">
+          <span class="bd-emoji">⭐️</span>
           Mixins
-        </a>
+        </router-link>
       </div>
 
       <div class="navbar-end">
