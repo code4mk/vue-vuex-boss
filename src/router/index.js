@@ -38,7 +38,8 @@ export default new Router({
     {
       path: '/v-text',
       name: 'VText',
-      component: VText
+      component: VText,
+      alias: '/text-alias'
     },
     {
       path: '/v-html',
